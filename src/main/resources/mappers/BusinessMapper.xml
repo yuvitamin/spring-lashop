@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vip.demo.mapper.BusinessMapper">
+<!--    <resultMap id="CategoryBusinss_ResultMap" type="Category">-->
+<!--        <id property="cateId" column="cate_id"/>-->
+<!--        <result property="cateName" column="cate_name" />-->
+<!--        <result property="cateId" column="cate_id" />-->
+<!--    </resultMap>-->
+<!--    <resultMap id="CategoryBusiness_ResultMap" type="com.yuelala.shop.domain.vo.CategoryVo">-->
+<!--        <id property="cateId" column="cate_id"/>-->
+<!--        <result property="cateName" column="cate_name" />-->
+<!--        <result property="cateId" column="cate_id" />-->
+<!--        &lt;!&ndash;Category对应Business&ndash;&gt;-->
+<!--        <collection property="businessList" ofType="com.yuelala.shop.domain.entity.Business">-->
+<!--            <id property="businessId" column="review_id"/>-->
+<!--            <result property="businessName"  column="business_Name" />-->
+<!--            <result property="cateId"  column="cate_Id" />-->
+<!--        </collection>-->
+<!--    </resultMap>-->
+</mapper>

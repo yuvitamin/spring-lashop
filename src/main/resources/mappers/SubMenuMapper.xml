@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vip.demo.mapper.SubMenuMapper">
+    <resultMap id="CategoryVoSubMenuVo_ResultMap" type="com.vip.demo.domain.vo.SubMenuVo">
+        <id property="subMenuId" column="sub_menu_id"/>
+        <result property="subName" column="sub_name" />
+        <!--SubMenuVo对应SubMenu1-->
+        <collection property="subMenu1List" ofType="com.vip.demo.domain.entity.SubMenu1">
+            <id property="subMenu2Id" column="sub_menu2_id"/>
+            <result property="menuName" column="menu_name" />
+        </collection>
+    </resultMap>
+</mapper>
